@@ -37,9 +37,37 @@ contentful space list
 contentful space migration --space-id "[your-space-id]" --environment-id "[your-space-environment]" migration/demo.js -y
 ```
 
+- Example of demo.js
+<pre>
+  module.exports = function (migration) {
+
+  const blogPost = migration
+    .createContentType("blogPost")
+    .name("Demo Blog Post")
+    .description("Blueprint for blog posts")
+    .displayField("title");
 
 
-<pre> demo </pre>
+  const title = blogPost.createField("title");
+  title
+    .name("Title")
+    .type("Symbol")
+    .required(true)
+    .validations([{ unique: true }]);
+
+  //   Post Author field
+  const author = blogPost.createField("author");
+  author.name("Author Name").type("Symbol").required(true).validations([]);
+
+  //   Post body field
+  const body = blogPost.createField("body");
+  body.name("Body").type("RichText").required(true).validations([]);
+
+};
+</pre>
+
+
+
 
 
 
