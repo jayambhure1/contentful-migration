@@ -39,7 +39,7 @@ contentful space migration --space-id "[your-space-id]" --environment-id "[your-
 
 
 
-<pre> ```bash git clone https://github.com/your-repo cd your-repo npm install ``` </pre>
+<pre> demo </pre>
 
 
 
