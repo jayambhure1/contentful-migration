@@ -66,7 +66,7 @@ contentful space migration --space-id "[your-space-id]" --environment-id "[your-
 };
 </pre>
 
-
+- for more https://github.com/contentful/contentful-migration/tree/main/examples
 
 
 
