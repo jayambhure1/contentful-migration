@@ -25,6 +25,23 @@ contentful logout
 ```
 ##
 
+- Get a list of all available spaces
+
+```bash
+contentful space list
+```
+
+- MIgration
+
+```bash
+contentful space migration --space-id "[your-space-id]" --environment-id "[your-space-environment]" migration/demo.js -y
+```
+
+
+
+
+
+
 - composer require acquia/coding-standards
 
  > alias drush="vendor//drush//drush//drush.bat"
