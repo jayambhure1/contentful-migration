@@ -1,9 +1,12 @@
 # contentful-migration
 
-**Install contentful CLI globally **
- > alias drush="vendor//drush//drush//drush.bat"
+**Install contentful CLI globally**
+- 
+
 - composer global require drupal/coder
 - composer require acquia/coding-standards
+
+ > alias drush="vendor//drush//drush//drush.bat"
 
 
 **How to use PHPCS**
@@ -12,3 +15,10 @@
 
 **For Enbled Module by Default.**
 - config/default/core.extension.yml
+
+
+##
+dfgdfg
+
+
+<pre> ```bash git clone https://github.com/your-repo cd your-repo npm install ``` </pre>
