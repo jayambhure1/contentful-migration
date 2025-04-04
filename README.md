@@ -1,9 +1,30 @@
 # contentful-migration
 
 **Install contentful CLI globally**
-- 
 
-- composer global require drupal/coder
+```bash
+npm install my-package
+```
+**Login & Log Out**
+- Login via browser
+  
+```bash
+contentful login
+```
+
+- Login via CMA Token
+
+```bash
+contentful login --management-token <management-token>
+```
+
+- Log Out
+
+```bash
+contentful logout
+```
+##
+
 - composer require acquia/coding-standards
 
  > alias drush="vendor//drush//drush//drush.bat"
@@ -22,3 +43,6 @@ dfgdfg
 
 
 <pre> ```bash git clone https://github.com/your-repo cd your-repo npm install ``` </pre>
+
+
+
